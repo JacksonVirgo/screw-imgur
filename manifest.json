@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Fuck Imgur",
+	"version": "1.0.0",
+	"description": "",
+	"permissions": ["activeTab", "scripting"],
+	"content_scripts": [
+		{
+			"matches": ["https://forum.mafiascum.net/*"],
+			"js": ["content.js"]
+		}
+	]
+}
